@@ -6,11 +6,10 @@ export function App() {
 
   return (
     <div>
-      <Post
-        autor='Gabriel'
-        content='Conteudo aleatorio!'
-      />
       <Header />
+
+      <div className='wrapper'></div>
+
     </div>
   )
 }

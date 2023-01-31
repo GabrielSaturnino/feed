@@ -1,9 +1,10 @@
 import styles from './header.module.css'
-
-console.log(styles);
+import igniteLogo from '../assets/Ignite-logo.svg'
 
 export function Header() {
   return (
-    <h1 className={styles.header}>Oi</h1>
+    <header className={styles.header}>
+      <img src={igniteLogo} alt="Logotipo do Ignite"></img>
+    </header>
   )
 }
