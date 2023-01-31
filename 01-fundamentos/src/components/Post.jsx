@@ -23,6 +23,18 @@ export function Post() {
           <p>Sequi temporibus tempore quam animi minima dicta necessitatibus nemo, voluptatum aliquid ut eligendi quidem in porro vel debitis dignissimos exercitationem libero ratione?</p>
         </p>
       </div>
+
+      <form className={style.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea
+          placeholder='Deixe um comentário'
+        />
+
+        <footer>
+          <button type='submit'>Publicar</button>
+        </footer>
+      </form>
     </article>
   )
 }
