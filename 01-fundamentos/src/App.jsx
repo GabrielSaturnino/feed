@@ -1,8 +1,16 @@
-function App() {
+import { Header } from './components/Header';
+import { Post } from './Posts';
+import './global.css';
+
+export function App() {
 
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Post
+        autor='Gabriel'
+        content='Conteudo aleatorio!'
+      />
+      <Header />
+    </div>
   )
 }
-
-export default App
